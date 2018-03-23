@@ -2,7 +2,6 @@ package com.faceye.component.mail.service.impl;
 
 import java.util.Map;
 
-import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 
 import org.apache.commons.logging.Log;
@@ -20,6 +19,8 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.velocity.VelocityEngineUtils;
+
+import com.sun.xml.internal.messaging.saaj.packaging.mime.MessagingException;
 
 @Service
 public class MailEngine {
